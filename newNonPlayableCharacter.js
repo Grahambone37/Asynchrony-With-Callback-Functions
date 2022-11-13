@@ -28,7 +28,7 @@ function newNonPlayableCharacter(x, y) {
         element.src = `./assets/red-character/east.gif`
         setTimeout(() => {
             stop()
-            if(callback) {
+            if (callback) {
                 callback()
             }
         }, time)
